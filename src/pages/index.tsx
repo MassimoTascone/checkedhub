@@ -1,9 +1,15 @@
-import { Menu } from "@/components/Menu";
+import { Layout } from "@/components/layout/Layout";
 export default function Home() {
   return (
-    <main>
-      <Menu />
-      <p>Vide</p>
-    </main>
+    <Layout>
+      <main>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta
+          quaerat deserunt magnam itaque ratione quia inventore similique amet
+          eos, nemo minus. Delectus sequi atque earum excepturi impedit nostrum
+          consequuntur est!
+        </p>
+      </main>
+    </Layout>
   );
 }
